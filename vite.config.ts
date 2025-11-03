@@ -1,10 +1,11 @@
 import tailwindcss from '@tailwindcss/vite';
-import { svelte } from '@sveltejs/vite-plugin-svelte';
+
+import { sveltekit } from '@sveltejs/kit/vite';
 import { defineConfig } from 'vite';
 //import { VitePWA } from 'vite-plugin-pwa';
 
 export default defineConfig({
-	plugins: [tailwindcss(), svelte(), /* VitePWA({
+	plugins: [tailwindcss(), sveltekit(), /* VitePWA({
     registerType: 'autoUpdate',
     injectRegister: false,
 
@@ -32,5 +33,8 @@ export default defineConfig({
       suppressWarnings: true,
       type: 'module',
     },
-  })*/]
+  })*/],
+  server: {
+    port: 8080
+  }
 });

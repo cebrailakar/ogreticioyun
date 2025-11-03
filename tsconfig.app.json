@@ -17,5 +17,5 @@
     "checkJs": true,
     "moduleDetection": "force"
   },
-  "include": ["src/**/*.ts", "src/**/*.js", "src/**/*.svelte", "src/language/tr-TR.json"]
+  "include": ["src/**/*.ts", "src/**/*.js", "src/**/*.svelte", "src/language/**.json"]
 }
