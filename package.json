@@ -38,6 +38,7 @@
 		"@threlte/extras": "^9.5.5",
 		"@threlte/rapier": "^3.1.5",
 		"config": "link:@vite-pwa/assets-generator/config",
+		"phaser": "^3.90.0",
 		"svelte-i18n": "^4.0.1",
 		"three": "^0.181.0",
 		"workbox-window": "^7.3.0"
