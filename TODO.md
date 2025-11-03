@@ -12,3 +12,4 @@
 - Bulmaca
 - Çizim (telefon özel)
 - Sesle/Görsel okuma
+- Taşı

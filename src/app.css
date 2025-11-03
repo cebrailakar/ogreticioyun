@@ -3,10 +3,8 @@
 :root {
   font-family: "DM Sans", sans-serif;
   --bg-color: white;
-  --text-color: black;
 }
 
 body {
   background-color: var(--bg-color);
-  color: var(--text-color);
 }

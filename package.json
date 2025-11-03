@@ -25,6 +25,7 @@
 		"prettier": "^3.6.2",
 		"prettier-plugin-svelte": "^3.4.0",
 		"prettier-plugin-tailwindcss": "^0.7.1",
+		"rollup": "^4.52.5",
 		"svelte": "^5.41.0",
 		"svelte-check": "^4.3.3",
 		"tailwindcss": "^4.1.14",
@@ -34,9 +35,11 @@
 	},
 	"dependencies": {
 		"@threlte/core": "^8.1.8",
+		"@threlte/extras": "^9.5.5",
 		"@threlte/rapier": "^3.1.5",
 		"config": "link:@vite-pwa/assets-generator/config",
 		"svelte-i18n": "^4.0.1",
+		"three": "^0.181.0",
 		"workbox-window": "^7.3.0"
 	}
 }
