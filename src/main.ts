@@ -1,5 +1,6 @@
 import { mount } from 'svelte'
 import './app.css'
+import './lib/Theme'
 import App from './App.svelte'
 import "./i18n";
 import { waitLocale } from 'svelte-i18n'
