@@ -7,6 +7,13 @@ settings:
 importers:
 
   .:
+    dependencies:
+      '@threlte/core':
+        specifier: ^8.1.8
+        version: 8.1.8(svelte@5.43.2)(three@0.181.0)
+      '@threlte/rapier':
+        specifier: ^3.1.5
+        version: 3.1.5(@dimforge/rapier3d-compat@0.19.2)(svelte@5.43.2)(three@0.181.0)
     devDependencies:
       '@sveltejs/adapter-auto':
         specifier: ^7.0.0
@@ -49,6 +56,9 @@ importers:
         version: 7.1.12(jiti@2.6.1)(lightningcss@1.30.2)
 
 packages:
+
+  '@dimforge/rapier3d-compat@0.19.2':
+    resolution: {integrity: sha512-AZHL1jqUF55QJkJyU1yKeh4ImX2J93bVLIezT1+o0FZqTix6O06MOaqpKoJ4MmbDCsoZmwO+qc471/SDMDm2AA==}
 
   '@esbuild/aix-ppc64@0.25.12':
     resolution: {integrity: sha512-Hhmwd6CInZ3dwpuGTF8fJG6yoWmsToE+vYgD4nytZVxcu1ulHpUQRAB1UJ8+N1Am3Mz4+xOByoQoSZf4D+CpkA==}
@@ -471,6 +481,19 @@ packages:
     peerDependencies:
       vite: ^5.2.0 || ^6 || ^7
 
+  '@threlte/core@8.1.8':
+    resolution: {integrity: sha512-AtIElNuOKlunT4GP6UpbniRopKu8t6JhI9KxAW4CLQcd+V9Sd/pRseneLV1zd+zvVWS6t09BWQbYP79nlpTJHw==}
+    peerDependencies:
+      svelte: '>=5'
+      three: '>=0.160'
+
+  '@threlte/rapier@3.1.5':
+    resolution: {integrity: sha512-TTciG0T4wGVVm0tkI34PkpejkjGzbtr5JtGLg+DK8qJEmSQ0308DkRntJKRAE2EYs/msn6XuXonxlkcXqwMNyA==}
+    peerDependencies:
+      '@dimforge/rapier3d-compat': '>=0.16'
+      svelte: '>=5'
+      three: '>=0.152'
+
   '@types/cookie@0.6.0':
     resolution: {integrity: sha512-4Kh9a6B2bQciAhf7FSuMRRkUWecJgJu9nPnx3yzpsfXX/c50REIqpHY4C82bXP90qrLtXtkDxTZosYO3UpOwlA==}
 
@@ -646,6 +669,9 @@ packages:
   magic-string@0.30.21:
     resolution: {integrity: sha512-vd2F4YUyEXKGcLHoq+TEyCjxueSeHnFxyyjNp80yg0XV4vUhnDer/lvvlqM/arB5bXQN5K2/3oinyCRyx8T2CQ==}
 
+  mitt@3.0.1:
+    resolution: {integrity: sha512-vKivATfr97l2/QBCYAkXYDbrIWPM2IIKEl7YPhjCvKlG3kE2gm+uBo6nEXK3M5/Ffh/FLpKExzOQ3JJoJGFKBw==}
+
   mri@1.2.0:
     resolution: {integrity: sha512-tzzskb3bG8LvYGFF/mDTpq3jpI6Q9wc3LEmBaghu+DdCssd1FakN7Bc0hVNmEyGq1bq3RgfkCb3cmQLpNPOroA==}
     engines: {node: '>=4'}
@@ -786,6 +812,9 @@ packages:
     resolution: {integrity: sha512-g9ljZiwki/LfxmQADO3dEY1CbpmXT5Hm2fJ+QaGKwSXUylMybePR7/67YW7jOrrvjEgL1Fmz5kzyAjWVWLlucg==}
     engines: {node: '>=6'}
 
+  three@0.181.0:
+    resolution: {integrity: sha512-KGf6EOCOQGshXeleKxpxhbowQwAXR2dLlD93egHtZ9Qmk07Saf8sXDR+7wJb53Z1ORZiatZ4WGST9UsVxhHEbg==}
+
   tinyglobby@0.2.15:
     resolution: {integrity: sha512-j2Zq4NyQYG5XMST4cbs02Ak8iJUdxRM0XI5QyxXuZOzKOINmWurp3smXu3y5wDcJrptwpSjgXHzIQxR0omXljQ==}
     engines: {node: '>=12.0.0'}
@@ -854,6 +883,8 @@ packages:
     resolution: {integrity: sha512-B58NGBEoc8Y9MWWCQGl/gq9xBCe4IiKM0a2x7GZdQKOW5Exr8S1W24J6OgM1njK8xCRGvAJIL/MxXHf6SkmQKQ==}
 
 snapshots:
+
+  '@dimforge/rapier3d-compat@0.19.2': {}
 
   '@esbuild/aix-ppc64@0.25.12':
     optional: true
@@ -1143,6 +1174,18 @@ snapshots:
       tailwindcss: 4.1.16
       vite: 7.1.12(jiti@2.6.1)(lightningcss@1.30.2)
 
+  '@threlte/core@8.1.8(svelte@5.43.2)(three@0.181.0)':
+    dependencies:
+      mitt: 3.0.1
+      svelte: 5.43.2
+      three: 0.181.0
+
+  '@threlte/rapier@3.1.5(@dimforge/rapier3d-compat@0.19.2)(svelte@5.43.2)(three@0.181.0)':
+    dependencies:
+      '@dimforge/rapier3d-compat': 0.19.2
+      svelte: 5.43.2
+      three: 0.181.0
+
   '@types/cookie@0.6.0': {}
 
   '@types/estree@1.0.8': {}
@@ -1285,6 +1328,8 @@ snapshots:
     dependencies:
       '@jridgewell/sourcemap-codec': 1.5.5
 
+  mitt@3.0.1: {}
+
   mri@1.2.0: {}
 
   mrmime@2.0.1: {}
@@ -1397,6 +1442,8 @@ snapshots:
   tailwindcss@4.1.16: {}
 
   tapable@2.3.0: {}
+
+  three@0.181.0: {}
 
   tinyglobby@0.2.15:
     dependencies:

@@ -26,5 +26,9 @@
 		"tailwindcss": "^4.1.14",
 		"typescript": "^5.9.3",
 		"vite": "^7.1.10"
+	},
+	"dependencies": {
+		"@threlte/core": "^8.1.8",
+		"@threlte/rapier": "^3.1.5"
 	}
 }
