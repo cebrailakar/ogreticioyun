@@ -1,1 +1,1 @@
-vite-plugin-tauri -> For app
+vite-plugin-tauri, @sveltejs/adapter-tauri -> For app

@@ -1,20 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 @import "tailwindcss";
 
-:root {
-  font-family: "DM Sans", sans-serif;
+@theme {
+  --font-display: "DM Sans", sans-serif;
   --bg-color: #00BFFF;
-  --button: gray;
+  --color-custom-1: gray;
+}
+:root {
+  font-family: var(--font-display);
 }
 
 body {
   margin: 0;
-  height: 100vh; /* Sayfanın tamamını kapsasın */
+  height: 100vh;
   background-color: var(--bg-color);
   display: flex;
-  flex-direction: column; /* Dikey yön için */
-}
-
-.--button {
-    background-color: --button;
+  flex-direction: column;
 }
