@@ -5,6 +5,6 @@ import trTR from './tr-TR.json';
 addMessages('tr-tr', trTR);
 
 init({
-  fallbackLocale: 'tr-tr',
-  initialLocale: getLocaleFromNavigator(),
+	fallbackLocale: 'tr-tr',
+	initialLocale: getLocaleFromNavigator()
 });

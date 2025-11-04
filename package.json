@@ -14,10 +14,13 @@
 	},
 	"devDependencies": {
 		"@rollup/plugin-json": "^6.1.0",
+		"@sequelize/core": "7.0.0-alpha.42",
+		"@sequelize/postgres": "7.0.0-alpha.47",
 		"@sveltejs/adapter-auto": "^7.0.0",
 		"@sveltejs/kit": "^2.48.4",
+		"@sveltejs/vite-plugin-svelte": "^6.2.1",
 		"@tailwindcss/typography": "^0.5.19",
-		"@tailwindcss/vite": "^4.1.14",
+		"@tailwindcss/vite": "^4.1.16",
 		"@tsconfig/svelte": "^5.0.5",
 		"@types/node": "^24.10.0",
 		"@vite-pwa/assets-generator": "^1.0.2",
@@ -33,11 +36,12 @@
 		"vite-plugin-pwa": "^1.1.0"
 	},
 	"dependencies": {
-		"@sveltejs/vite-plugin-svelte": "^6.2.1",
 		"@threlte/core": "^8.1.8",
 		"@threlte/extras": "^9.5.5",
 		"@threlte/rapier": "^3.1.5",
 		"config": "link:@vite-pwa/assets-generator/config",
+		"pg": "^8.16.3",
+		"pg-hstore": "^2.3.4",
 		"phaser": "^3.90.0",
 		"svelte-i18n": "^4.0.1",
 		"three": "^0.181.0",

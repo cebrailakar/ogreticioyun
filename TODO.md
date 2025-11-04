@@ -1,10 +1,11 @@
 Öğretilecekler:
+
 - Eşyalar
 - Hayvanlar
 - Renkler
 - Dini Bilgiler
 - Harf ve Sayı
-- Türkçe ve ingilizce 
+- Türkçe ve ingilizce
 
 Öğretme şekilleri:
 

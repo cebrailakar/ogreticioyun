@@ -33,8 +33,9 @@ export default defineConfig({
       suppressWarnings: true,
       type: 'module',
     },
-  })*/],
-  server: {
-    port: 8080
-  }
+  })*/
+	],
+	server: {
+		port: 8080
+	}
 });
